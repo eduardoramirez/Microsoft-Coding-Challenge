@@ -32,8 +32,6 @@ public class FollowDirections
             dir = 1;
           else
             dir++;
-
-          continue;
         }
 
         else if(direction[1].equals("left"))
@@ -42,9 +40,9 @@ public class FollowDirections
             dir = 4;
           else
             dir--;
-
-          continue;
         }
+        
+        continue;
       }
 
       else if(direction[0].equals("Move"))
@@ -68,7 +66,6 @@ public class FollowDirections
         return;
       }
     }
-
 
     System.out.println(x + "," + y);
   }
